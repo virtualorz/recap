@@ -1,0 +1,33 @@
+{
+  "name": "@virtualorz/recap",
+  "version": "0.1.0",
+  "description": "Turn your Claude Code conversation history into monthly dev logs and AI-written recaps, per project. Adds /recap:month and /recap:export slash commands.",
+  "bin": {
+    "recap": "bin/recap.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "slash-command",
+    "recap",
+    "devlog",
+    "worklog",
+    "summary",
+    "ai"
+  ],
+  "author": "Alvin Chen",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
